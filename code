@@ -1,0 +1,9 @@
+def sum_(a, b):
+    sigma = a + b
+    if 15 < sigma < 20:
+        return print(sigma)
+    else:
+        print("out of range")
+
+sum_(11, 2)
+sum_(11, 5)
